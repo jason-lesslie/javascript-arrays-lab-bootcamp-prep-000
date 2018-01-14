@@ -22,3 +22,6 @@ function prependKitten(name) {
   var outputArray = [name, ...kittens]
   return outputArray
 }
+function removeLastKitten() {
+  return kittens.slice(1)
+}
