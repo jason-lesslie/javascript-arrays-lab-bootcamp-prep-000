@@ -18,3 +18,7 @@ function appendKitten(name) {
   var outputArray = [...kittens, name]
   return outputArray
 }
+function prependKitten(name) {
+  var outputArray = [name, ...kittens]
+  return outputArray
+}
